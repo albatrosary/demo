@@ -27,7 +27,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     'gh-pages': {
       options: {
-        base: 'dist',
+        base: 'dist/public',
         repo: 'https://github.com/albatrosary/demo.git'
       },
       src: ['**']
